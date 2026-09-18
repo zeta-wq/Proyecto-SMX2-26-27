@@ -1,4 +1,8 @@
-# Servicios
+### Plan De Proyecto
+
+Servicios
+--
+
 ### 1. Servidor
 Dado que las gafas no pueden procesar la IA por sí solas, se necesita potencia en la nube para ejecutar el backend, la transcripción de voz y los modelos de lenguaje.
 Se instalará Python con un framework ligero como FastAPI o Flask para crear una pequeña API que reciba las fotos y los audios de tus gafas.
