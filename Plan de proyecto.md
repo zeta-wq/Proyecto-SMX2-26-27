@@ -1,5 +1,10 @@
 ### Plan De Proyecto
 
+Descripción
+--
+
+Unas gafas buenas y baratas, con una precisión muy buena, con cámara, altavoz y micrófono captando todo en el momento que el usuario quiera. 
+
 Servicios
 --
 
