@@ -1,7 +1,3 @@
-Sí. Te lo dejo como un `README.md` limpio, profesional y **sin emojis ni elementos decorativos de IA**, listo para copiar a GitHub.
-
- README.md
-
 # Sistema de Seguridad Inteligente con Raspberry Pi
 
  Proyecto Intermodular de 2.º curso de Sistemas Microinformáticos y Redes (SMR).
