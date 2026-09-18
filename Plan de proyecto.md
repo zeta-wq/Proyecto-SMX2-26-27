@@ -80,3 +80,106 @@ Python
     
     # 3. Devolver la respuesta a las gafas (en texto o convertida a audio)
     return {"respuesta": texto_respuesta}
+
+Tecnología
+--
+
+**1. En las Gafas (Hardware y Firmware)**
+
+-Microcontrolador: Seeed Studio XIAO ESP32-S3 Sense (con su cámara OV2640 y micrófono digital integrado).
+
+-Lenguaje de Programación / Framework: C++ utilizando el Arduino IDE o PlatformIO.
+
+-Librerías clave:
+
+-WiFi.h para conectar la placa a la red.
+
+-HTTPClient o librerías de WebSockets para enviar las fotos y audios al servidor.
+
+-Librerías de manejo de cámara (esp_camera.h) y audio (I2S).
+
+**2. En el Servidor (Backend y Redes)**
+
+-Sistema Operativo del Servidor: Linux (Ubuntu Server o Debian) en tu ordenador (puedes correrlo de forma nativa o mediante WSL en Windows si lo prefieres para desarrollo).
+
+-Infraestructura de Red (Si montas el servidor local fuera de casa):
+
+-Punto de acceso móvil o herramientas de túnel como Ngrok / Cloudflare Tunnels para conectar las gafas al servidor desde cualquier red (como el instituto).
+
+**-Backend (La API):** Python con el framework FastAPI (es rapidísimo, asíncrono y genera documentación automática ideal para conectar con tu app).
+
+**-Procesamiento de IA (Local o Cloud):**
+
+**-Opción Local:** Ollama (para correr modelos de lenguaje como Llama 3 en tu PC) y Whisper (para voz a texto).
+
+**-Opción Cloud:** APIs de OpenAI (Whisper API y GPT-4o-mini) o Groq para velocidad extrema.
+
+**-Almacenamiento:** El propio sistema de archivos de Python (guardar las imágenes y audios en carpetas organizadas por fecha).
+
+**3. Para la Aplicación Móvil (Interfaz de usuario)**
+
+**-Framework Multiplataforma:** Flutter (usando Dart) o React Native (usando JavaScript/TypeScript). Te permitirán crear una app que funcione tanto en Android como en iOS con un solo código.
+
+**-Conectividad:** Peticiones HTTP (http package o Axios) o WebSockets para comunicarse con tu API de FastAPI y mostrar la galería de fotos/videos y el chat con la IA.
+
+RED
+--
+
+**1. Descripción de la Red**
+La red diseñada para este proyecto es una red local inalámbrica en estrella de baja latencia, donde el servidor actúa como el núcleo central de enrutamiento y procesamiento.
+
+Topología: Red en estrella (Star Topology). El servidor (ordenador o mini PC) se encuentra en el centro gestionando las conexiones, y los dispositivos periféricos (las gafas inteligentes y la aplicación móvil) se conectan directamente a él.
+
+Capa de Acceso (Dispositivos Clientes):
+
+Gafas Inteligentes (XIAO ESP32-S3 Sense): Actúan como clientes Wi-Fi. Capturan multimedia y envían peticiones HTTP POST hacia la IP/dominio del servidor.
+
+Aplicación Móvil (Smartphone): Cliente secundario que se conecta a la misma red para consultar la galería y el historial de la IA mediante la API del servidor.
+
+**Capa de Núcleo (El Servidor Local):**
+
+Gestiona los servicios de red básicos (DHCP / DNS local o mediante un punto de acceso/túnel si se presenta fuera).
+
+Aloja el Firewall (filtrado de puertos y seguridad básica).
+
+Ejecuta el Backend (FastAPI en Python) y los modelos de Inteligencia Artificial.
+
+**Protocolos Utilizados:**
+
+**Wi-Fi (802.11 b/g/n):** Para la conectividad inalámbrica física.
+
+**TCP/IP e HTTP/HTTPS:** Para la transferencia de datos y comunicación de la API REST entre las gafas, la app y el servidor.
+
+**2. Diagrama de Red (Esquema Visual)**
+Puedes representar el diagrama de esta manera en tu trabajo (puedes usar herramientas gratuitas como Draw.io o Lucidchart para pasarlo a bonito):
+
+Plaintext
+
+       +---------------------------------------------+
+       |             DISPOSITIVOS CLIENTES           |
+       |                                             |
+       |   [ Gafas Inteligentes ]     [ App Móvil ]  |
+       |   (XIAO ESP32-S3 Sense)       (Smartphone)  |
+       |         |                         |         |
+       +---------|-------------------------|---------+
+                 |                         |
+                 |  Wi-Fi / HTTP POST / REST API
+                 v                         v
+       +---------------------------------------------+
+       |             NÚCLEO DE RED / SERVIDOR        |
+       |                                             |
+       |  +---------------------------------------+  |
+       |  |          Firewall / Seguridad         |  |
+       |  +---------------------------------------+  |
+       |  +---------------------------------------+  |
+       |  |        Servidor Web / Backend         |  |
+       |  |           (Python / FastAPI)          |  |
+       |  +---------------------------------------+  |
+       |  +---------------------------------------+  |
+       |  |       Motor de IA & Procesamiento     |  |
+       |  |        (Whisper / LLM / Ollama)       |  |
+       |  +---------------------------------------+  |
+       |  +---------------------------------------+  |
+       |  |    Almacenamiento (Sistema Archivos)  |  |
+       |  +---------------------------------------+  |
+       +---------------------------------------------+
