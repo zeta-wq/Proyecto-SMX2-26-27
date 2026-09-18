@@ -12,7 +12,7 @@
 
  El sistema tendrá las siguientes funciones:
 
- - Captura y grabación de vídeo.
+- Captura y grabación de vídeo.
 - Detección de personas mediante inteligencia artificial.
 - Reconocimiento facial de personas autorizadas.
 - Activación de una alarma ante personas desconocidas.
@@ -94,7 +94,7 @@
 
  # Hardware
 
- | Componente | Función |
+| Componente | Función |
 | --- | --- |
 | Raspberry Pi 5 8 GB | Equipo principal del sistema |
 | Raspberry Pi Camera Module 3 | Captura de vídeo |
@@ -105,7 +105,6 @@
 | Caja | Protección del dispositivo |
 | Fuente USB-C | Alimentación |
 
-La Raspberry Pi 5 no se incluye en el presupuesto porque ya se dispone de ella.
 
 ---
 
@@ -205,7 +204,7 @@ Docker
 
  Scrypted NVR se utilizará para las funciones relacionadas con la videovigilancia:
 
- - Grabación de vídeo.
+- Grabación de vídeo.
 - Detección de personas.
 - Gestión de eventos.
 - Reconocimiento facial.
@@ -245,7 +244,7 @@ Reconocimiento facial
 
  Funciones principales:
 
- - Control del sensor PIR.
+- Control del sensor PIR.
 - Control de la alarma.
 - Control de GPIO.
 - Comunicación mediante MQTT.
@@ -409,7 +408,7 @@ Persona desconocida
 
  ## Tecnologías
 
- - React
+- React
 - TypeScript
 - FastAPI
 - PostgreSQL
@@ -418,7 +417,7 @@ Persona desconocida
 
  ## Funciones
 
- - Visualización de vídeo en directo.
+- Visualización de vídeo en directo.
 - Historial de eventos.
 - Historial de grabaciones.
 - Gestión de cámaras.
@@ -434,7 +433,7 @@ Persona desconocida
 
  El proyecto contempla un modelo de suscripción.
 
- | Plan | Precio | Retención |
+| Plan | Precio | Retención |
 | --- | --- | --- |
 | Free | 0 €/mes | 3 días |
 | Basic | 2,99 €/mes | 7 días |
@@ -478,33 +477,6 @@ Los precios son orientativos y forman parte de la propuesta comercial del proyec
 
 ---
 
- # Diseño de red
-
- Se plantea separar los dispositivos mediante VLAN.
-
-```
-                         ROUTER
-                            |
-                       FIREWALL
-                            |
-              +-------------+-------------+
-              |             |             |
-              v             v             v
-          VLAN 10       VLAN 20       VLAN 30
-       Administración      IoT        Servidores
-              |             |             |
-              |             +-- Raspberry |
-              |             +-- Cámaras   |
-              |                           +-- API
-              +-- PC                       +-- PostgreSQL
-                                          +-- MQTT
-                                          +-- Storage
-```
-
- La segmentación de red permitirá limitar la comunicación entre los diferentes dispositivos y mejorar la seguridad del sistema.
-
----
-
  # Administración
 
  La Raspberry Pi se administrará remotamente mediante SSH.
@@ -532,7 +504,7 @@ Raspberry Pi
 
  Medidas previstas:
 
- - Procesamiento local de IA.
+- Procesamiento local de IA.
 - Comunicaciones mediante HTTPS.
 - Autenticación segura.
 - Contraseñas almacenadas mediante hashing.
@@ -546,7 +518,7 @@ Raspberry Pi
 
  # Tecnologías
 
- | Categoría | Tecnología |
+| Categoría | Tecnología |
 | --- | --- |
 | Hardware | Raspberry Pi 5 |
 | Cámara | Camera Module 3 |
@@ -564,44 +536,3 @@ Raspberry Pi
 | Notificaciones | Firebase Cloud Messaging |
 | Llamadas | Twilio |
 | Administración | SSH |
-
----
-
- # Estado del proyecto
-
- - [ ] Preparar Raspberry Pi
-- [ ] Instalar Raspberry Pi OS Lite
-- [ ] Configurar SSH
-- [ ] Instalar Docker
-- [ ] Configurar cámara
-- [ ] Instalar Scrypted
-- [ ] Configurar Scrypted NVR
-- [ ] Instalar AI HAT+
-- [ ] Configurar detección de personas
-- [ ] Configurar reconocimiento facial
-- [ ] Configurar sensor PIR
-- [ ] Configurar alarma
-- [ ] Configurar MQTT
-- [ ] Desarrollar API
-- [ ] Crear base de datos
-- [ ] Crear almacenamiento
-- [ ] Desarrollar página web
-- [ ] Implementar notificaciones
-- [ ] Implementar llamadas
-- [ ] Implementar planes de almacenamiento
-- [ ] Realizar pruebas
-- [ ] Documentar el proyecto
-
----
-
- # Proyecto Intermodular
-
- **Ciclo:** Sistemas Microinformáticos y Redes (SMR)
-
- **Curso:** 2.º SMR
-
- **Curso académico:** 2026/2027
-
- **Autor:** \[Tu nombre\]
-
- **Centro:** \[Nombre del centro\]
