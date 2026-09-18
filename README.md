@@ -6,7 +6,7 @@ Las Smart Glasses Prototipo son un dispositivo wearable de asistencia inteligent
 
 ## Roadmap
 
-**Fase 1:** Firmware y Captura en el ESP32 (Semanas 1-2)
+**Fase 1:** Firmware y Captura en el ESP32
 Configurar el entorno con Arduino IDE o PlatformIO optimizado para la placa Seeed Studio XIAO ESP32-S3 Sense.
 
 Programar la captura de fotogramas con la cámara OV2640 y la toma de muestras de audio mediante el micrófono integrado.
