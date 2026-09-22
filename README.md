@@ -3,6 +3,9 @@
 
 Las Smart Glasses Prototipo son un dispositivo wearable de asistencia inteligente diseñado para integrar captura multimedia, interacción por voz y procesamiento de IA en un factor de forma ergonómico y minimalista.
 
+# La Smart Camera
+
+La smart camera es un prototipo avanzado de cámara de seguridad potenciada con IA, con reconocimiento facial y alarma automatizada y configurable.
 
 ## Roadmap
 
@@ -28,7 +31,7 @@ Desarrollar una aplicación básica en Flutter para visualizar de manera gráfic
 Realizar el ensamblaje físico final de los componentes electrónicos en la montura y ejecutar pruebas de estrés completas.
 
 
-## Acknowledgements
+## Bibliografia
 
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
