@@ -1,34 +1,15 @@
 
-# Las Smart Glasses Z
+# Las Smart Glasses Z / ZetaVision / Zeta&Glass
 
-Las Smart Glasses Prototipo son un dispositivo wearable de asistencia inteligente diseñado para integrar captura multimedia, interacción por voz y procesamiento de IA en un factor de forma ergonómico y minimalista.
+Las Smart Glasses Prototipo son un dispositivo wearable de asistencia inteligente diseñado para integrar captura multimedia, interacción por voz y procesamiento de IA, reconocimiento del entorno y body tracking; todo integrado en un factor de forma ergonómico y minimalista
 
-# La Smart Camera
+## Briefing
 
-La smart camera es un prototipo avanzado de cámara de seguridad potenciada con IA, con reconocimiento facial y alarma automatizada y configurable.
+La idea principal es poder conectar las gafas con conexión directa al servidor para enviar tanto video como audio, el video y el audio se procesa con IA en el servidor.
+Con IA se reconoce el entorno y en el servidor se guardan eventos ya pueden ser un vehículos pasando, animales... y se te notifica por vía auditiva.
+Para uso en entorno virtual, hand tracking para utilizar el ratón del pc con tu mano.
 
-## Roadmap
-
-**Fase 1:** Firmware y Captura en el ESP32
-Configurar el entorno con Arduino IDE o PlatformIO optimizado para la placa Seeed Studio XIAO ESP32-S3 Sense.
-
-Programar la captura de fotogramas con la cámara OV2640 y la toma de muestras de audio mediante el micrófono integrado.
-
-Integrar un pequeño pulsador físico en la patilla para alternar los estados de grabación, pausa y captura de fotos.
-
-**Fase 2:** Servidor, Backend y Redes
-Levantar el servidor local en Python utilizando FastAPI para gestionar las rutas de recepción de datos multimedia.
-
-Implementar la estrategia de red (ya seja mediante un punto de acceso móvil o un túnel como Ngrok) para asegurar la conectividad fuera de casa.
-
-Diseñar la estructura de almacenamiento local en el servidor para organizar automáticamente las imágenes y audios entrantes.
-
-**Fase 3:** Inteligencia Artificial y App Móvil 
-Integrar el motor de transcripción (Whisper) y el modelo de lenguaje en el backend para procesar las peticiones de voz de forma fluida.
-
-Desarrollar una aplicación básica en Flutter para visualizar de manera gráfica la galería de fotos y el historial del asistente.
-
-Realizar el ensamblaje físico final de los componentes electrónicos en la montura y ejecutar pruebas de estrés completas.
+## Conlusiones
 
 
 ## Bibliografia
@@ -36,6 +17,9 @@ Realizar el ensamblaje físico final de los componentes electrónicos en la mont
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
+## Guía de Usuario
+
 
 
 ## Badges
