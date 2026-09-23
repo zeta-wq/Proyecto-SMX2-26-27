@@ -41,9 +41,7 @@ A nivel hardware utilizaremos el microcontrolador **Seeed estudio XIAO ESP32 S3 
 
 ## Bibliografia
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+- **Getting Started del microcontrolador**: https://wiki.seeedstudio.com/es/xiao_esp32s3_getting_started/
 
 ## Guía de Usuario
 
