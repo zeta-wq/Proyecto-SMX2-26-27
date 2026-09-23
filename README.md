@@ -5,7 +5,7 @@ Las Smart Glasses Prototipo son un dispositivo wearable de asistencia inteligent
 
 ## Briefing
 
-La idea principal es poder conectar las gafas con conexión directa al servidor para enviar tanto video como audio, y es procesado con IA en el servidor.
+La idea principal es poder conectar las gafas con conexión directa al servidor para enviar tanto video como audio, y procesarlo con IA en el servidor.
 
 Para uso en entorno virtual, hand tracking para utilizar el ratón del pc con tu mano a distancia.
 ### Ideas secundarias
