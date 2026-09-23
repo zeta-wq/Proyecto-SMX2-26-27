@@ -1,5 +1,5 @@
 
-# Las Smart Glasses Z / ZetaVision / Zeta&Glass
+# ZetaVision
 
 Las Smart Glasses Prototipo son un dispositivo wearable de asistencia inteligente diseñado para integrar captura multimedia, interacción por voz y procesamiento de IA, reconocimiento del entorno y body tracking; todo integrado en un factor de forma ergonómico y minimalista
 
