@@ -31,6 +31,7 @@ Para el hand tracking se utilizara un script implementado dentro del ESP32 que e
 ## Tecnologías a utilizar
 
 A nivel hardware utilizaremos el microcontrolador **Seeed estudio XIAO ESP32 S3 Sense**, es una plaquita muy pequeña ideal para poner en la patilla.
+
 **Porqué este?** Este controlador XIAO ESP32 viene incorporado con una cámara, con un micrófono digital, una antena WIFI y Bluetooth, todo esto en una placa de **21x17,8x15mm** con placa para una futura posible expansión.
 
 
