@@ -9,7 +9,9 @@ La idea principal es poder conectar las gafas con conexión directa al servidor 
 
 Con IA se reconoce el entorno y en el servidor se guardan eventos ya pueden ser un vehículos pasando, animales... y se te notifica por vía auditiva.
 
-Para uso en entorno virtual, hand tracking para utilizar el ratón del pc con tu mano.
+Para uso en entorno virtual, hand tracking para utilizar el ratón del pc con tu mano a distancia.
+
+Poder tener enlazadas las gafas a un chatbot mediante un audífono y el micrófono para hablar con la IA.
 
 ## Conlusiones
 
