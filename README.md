@@ -13,6 +13,23 @@ Para uso en entorno virtual, hand tracking para utilizar el ratón del pc con tu
 
 Poder tener enlazadas las gafas a un chatbot mediante un audífono y el micrófono para hablar con la IA.
 
+## Arquitectura del software
+
+Las Inteligencias artificiales que utilizaremos en este proyecto son:
+
+- Ollama (QWEN3.5:8b)
+- Scrypted (NVR)
+
+Estas IAs estarán implementadas en el servidor principal en dockers para evitar conflictos y gastar menos recursos.
+
+Para la comunicación entre las gafas y el servidor principal se utilizara una aplicación que establezca una conexión remota segura a partir de un hotspot del telefóno.
+
+Por parte del ordenador se utilizara un programa que conecte el microcontrolador con el PC para poder controlar el puntero del ratón.
+
+Para el hand tracking se utilizara un script implementado dentro del ESP32 que estará conectado al programa anteriormente mencionado.
+
+
+
 ## Conlusiones
 
 
