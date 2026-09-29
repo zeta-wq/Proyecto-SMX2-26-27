@@ -1,12 +1,12 @@
+<details><summary><h2>Briefing</h2></summary>
 
-# Objetivos
 
--N8N en docker
+La idea principal es poder conectar las gafas con conexión directa al servidor para enviar tanto video como audio, y procesarlo con IA en el servidor.
 
--Automatizar el proceso de conexion de las gafas con el Scrypted y la IA
+Para uso en entorno virtual, hand tracking para utilizar el ratón del pc con tu mano a distancia.
+### Ideas secundarias
 
--Scrypted en docker
+A partir de la IA almacenada en el servidor porder reconocer el entorno y guardar eventos...
 
--Coolify
-
--
+Poder tener enlazadas las gafas a un chatbot mediante un audífono y el micrófono para hablar con la IA.
+</details>
