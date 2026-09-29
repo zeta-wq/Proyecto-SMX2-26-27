@@ -1,5 +1,9 @@
 # Briefing
 
+Nuestro proyecto es ZetaVision
+
+
+
 
 La idea principal es poder conectar las gafas con conexión directa al servidor para enviar tanto video como audio, y procesarlo con IA en el servidor.
 
