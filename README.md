@@ -1,18 +1,9 @@
+# ZetaVision
 
-> # ZetaVision
+Las Smart Glasses Prototipo son un dispositivo wearable de asistencia inteligente diseñado para integrar captura multimedia, interacción por voz y procesamiento de IA, reconocimiento del entorno y body tracking; todo integrado en un factor de forma ergonómico y minimalista.
 
-Las Smart Glasses Prototipo son un dispositivo wearable de asistencia inteligente diseñado para integrar captura multimedia, interacción por voz y procesamiento de IA, reconocimiento del entorno y body tracking; todo integrado en un factor de forma ergonómico y minimalista
+Este proyecto esta pensado para facilitar o mejorar pequeñas cosas de tu vida, como guardar un momento especial ,sin necesidad de una cámara a mano, solo con un comando de voz, grabar videos con tu POV o simplemente utilizar tu ordenador sin periféricos. Con esto queremos llegar a la posibilidad de creación de contenido en redes, facilitar el  y por ultimo soporte visual para gente con dificultades visuales con el reconocimiento del entorno.
 
-## Briefing
-
-La idea principal es poder conectar las gafas con conexión directa al servidor para enviar tanto video como audio, y procesarlo con IA en el servidor.
-
-Para uso en entorno virtual, hand tracking para utilizar el ratón del pc con tu mano a distancia.
-### Ideas secundarias
-
-A partir de la IA almacenada en el servidor porder reconocer el entorno y guardar eventos...
-
-Poder tener enlazadas las gafas a un chatbot mediante un audífono y el micrófono para hablar con la IA.
 
 ## Arquitectura del software
 
