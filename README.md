@@ -2,7 +2,7 @@
 
 Las Smart Glasses Prototipo son un dispositivo wearable de asistencia inteligente diseñado para integrar captura multimedia, interacción por voz y procesamiento de IA, reconocimiento del entorno y body tracking; todo integrado en un factor de forma ergonómico y minimalista.
 
-Este proyecto esta pensado para facilitar o mejorar pequeñas cosas de tu vida, como guardar un momento especial ,sin necesidad de una cámara a mano, solo con un comando de voz, grabar videos con tu POV o simplemente utilizar tu ordenador sin periféricos. Con esto queremos llegar a la posibilidad de creación de contenido en redes, facilitar el  y por ultimo soporte visual para gente con dificultades visuales con el reconocimiento del entorno.
+Este proyecto esta pensado para facilitar o mejorar pequeñas cosas de tu vida, como guardar un momento especial, sin necesidad de una cámara a mano, solo con un comando de voz, grabar videos con tu POV o simplemente utilizar tu ordenador sin periféricos. Con esto queremos llegar a la posibilidad de creación de contenido en redes, facilitar el  y por ultimo soporte visual para gente con dificultades visuales con el reconocimiento del entorno.
 
 
 ## Arquitectura del software
