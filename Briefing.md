@@ -23,4 +23,36 @@ Estas gafas están pensadas para gente que quiere crear multimedia, ya puede ser
 
 ### Módulos involucrados en el proyecto
 
-![Arduino]
+- Modulo optativo
+- Sistemas operativos en redes
+- Seguridad informatica
+- Servicios en red
+- Aplicaciones web
+
+### Materiales necesarios
+
+<details>
+  <summary>Fisicos</summary>
+  <hr>
+<p>- ESP32 Seed estudio XIAO S3 SENSE y sus complementos</p>
+<p>- Servidor principal (Ubuntu server)</p>
+<p>- Maquetación de las gafas</p>
+<p>- Ordenador</p>
+</details>
+
+<details>
+<summary>Lógicos</summary>
+<hr>
+<p>- Ollama(QWEN3.5:8b) y Scrypted (NVR)</p>
+<p>- Tinkercad</p>
+<p>- Visual code</p>
+<p>- MySQL</p>
+<p>- WordPress</p>
+<p>- Arduino IDE</p>
+  
+</details>
+
+### Bibliografia
+
+
+
