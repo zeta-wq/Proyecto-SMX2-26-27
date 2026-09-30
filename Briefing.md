@@ -54,5 +54,8 @@ Estas gafas están pensadas para gente que quiere crear multimedia, ya puede ser
 
 ### Bibliografia
 
-
+- Información del microcontrolador: https://wiki.seeedstudio.com/es/xiao_esp32s3_getting_started/
+- Información de scrypted como funciona: https://docs.scrypted.app/
+- Como funciona Ollama: https://docs.ollama.com/
+- Con que crearemos las gafas: https://www.tinkercad.com/
 
