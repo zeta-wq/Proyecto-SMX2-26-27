@@ -11,11 +11,13 @@ Nuestro proyecto, ZetaVision, esta pensado para facilitar o mejorar pequeñas co
 **La idea principal** es poder conectar las gafas con conexión directa al servidor para enviar tanto video como audio, y procesarlo con IA en el servidor.
 
 Para uso en entorno virtual, hand tracking para utilizar el ratón del pc con tu mano a distancia.
-#### Ideas secundarias
 
-A partir de la IA almacenada en el servidor porder reconocer el entorno y guardar eventos...
-
-Poder tener enlazadas las gafas a un chatbot mediante un audífono y el micrófono para hablar con la IA.
+<details>
+  <summary>Ideas secundarias</summary>
+  <hr>
+  <p>A partir de la IA almacenada en el servidor porder reconocer el entorno y guardar eventos...</p>
+  <p>Poder tener enlazadas las gafas a un chatbot mediante un audífono y el micrófono para hablar con la IA.</p>
+</details>
 
 ### Público objetivo
 
