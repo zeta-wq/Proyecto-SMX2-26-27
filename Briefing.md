@@ -1,6 +1,6 @@
 # Briefing
 
-Nuestro proyecto, ZetaVision, esta pensado para facilitar o mejorar pequeñas cosas de tu vida como: 
+Nuestro proyecto, **ZetaVision**, esta pensado para facilitar o mejorar pequeñas cosas de tu vida como: 
 
 <div aling="justify"><p>Guardar un momento especial, sin necesidad de una cámara a mano, solo con un comando de voz, grabar videos con tu POV o simplemente utilizar tu ordenador sin periféricos. Con esto queremos llegar a la posibilidad de creación de contenido en redes, facilitar el y por ultimo soporte visual para gente con dificultades visuales con el reconocimiento del entorno.
 </p></div>
