@@ -21,7 +21,7 @@ Para uso en entorno virtual, hand tracking para utilizar el ratón del pc con tu
 
 ### Público objetivo
 
-Estas gafas están pensadas para creadores de contenido, ya puede ser personal o contenido para terceros, también para amantes de la tecnológia que quiere utilizar su ordenador de una manera avanzada y por último para clientes con problemas graves de vision, estas gafas pueden dar una segunda oportunidad a esa independencia perdida.
+ZetaVision esta diseñado para públicos como creadores de contenido multimedia, personal o público, también esta dedicado para personas con deficiencia visual severa, esto es porque tiene el reconocimiento de enterno, gracias a esto, ZetaVision puede ayudar a detectar el entorno con mucha exactitud, haciendo esto una gran ayuda a este tipo de públicos. El rango de edad destinado es de entre 16-50 años.
 
 ### Módulos involucrados en el proyecto
 
