@@ -1,8 +1,8 @@
 # Briefing
 
-Nuestro proyecto, **ZetaVision**, esta pensado para facilitar o mejorar pequeñas cosas de tu vida como: 
+Nuestro proyecto, **ZetaVision**:
 
-<div aling="justify"><p>Guardar un momento especial, sin necesidad de una cámara a mano, solo con un comando de voz, grabar videos con tu POV o simplemente utilizar tu ordenador sin periféricos. Con esto queremos llegar a la posibilidad de creación de contenido en redes, facilitar el y por ultimo soporte visual para gente con dificultades visuales con el reconocimiento del entorno.
+<div aling="justify"><p>Este proyecto va más allá que unas gafas normales con cámara, nosotros queremos innovación y eso hacemos, implementamos servicio de IA y handtracking avanzado para la comodidad de la gente, haciendo que se faciliten actividades, como crear contenido sin tener una cámara grande o poder hacer semi cámara oculta.
 </p></div>
 <hr>
 
@@ -21,7 +21,7 @@ Para uso en entorno virtual, hand tracking para utilizar el ratón del pc con tu
 
 ### Público objetivo
 
-ZetaVision esta diseñado para públicos como creadores de contenido multimedia, personal o público, también esta dedicado para personas con deficiencia visual severa, esto es porque tiene el reconocimiento de enterno, gracias a esto, ZetaVision puede ayudar a detectar el entorno con mucha exactitud, haciendo esto una gran ayuda a este tipo de públicos. El rango de edad destinado es de entre 16-50 años.
+<div aling="justify"><p>ZetaVision esta diseñado para públicos como creadores de contenido multimedia, personal o público, o para todo tipo de personas que les interesa la tecnología a otro nivel. También esta dedicado para personas con deficiencia visual severa, esto es porque tiene el reconocimiento de enterno, gracias a esto, ZetaVision puede ayudar a detectar el entorno con mucha exactitud, haciendo esto una gran ayuda a este tipo de públicos. El rango de edad destinado es de entre 16-50 años.</p></div>
 
 ### Módulos involucrados en el proyecto
 
