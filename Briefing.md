@@ -21,7 +21,7 @@ Para uso en entorno virtual, hand tracking para utilizar el ratón del pc con tu
 
 ### Público objetivo
 
-Estas gafas están pensadas para gente que quiere crear multimedia, ya puede ser para uso personal o para crear contenido para terceros, también gente que quiere utilizar su ordenador de una manera avanzada y por ultimo para el pequeño porcentaje de gente con problemas de vista, estas gafas pueden dar una segunda oportunidad a esa independencia perdida.
+Estas gafas están pensadas para creadores de contenido, ya puede ser personal o contenido para terceros, también para amantes de la tecnológia que quiere utilizar su ordenador de una manera avanzada y por último para clientes con problemas graves de vision, estas gafas pueden dar una segunda oportunidad a esa independencia perdida.
 
 ### Módulos involucrados en el proyecto
 
