@@ -8,7 +8,7 @@ Nuestro proyecto, **ZetaVision**:
 
 ### Objetivos
 
-**La idea principal** es poder conectar las gafas con conexión directa al servidor para enviar tanto video como audio, y procesarlo con IA en el servidor.
+**El objetivo principal**: Crear unas gafas que ofrece IA e implementa cámara y micrófono con una batería.
 
 Para uso en entorno virtual, hand tracking para utilizar el ratón del pc con tu mano a distancia.
 
@@ -40,6 +40,7 @@ Para uso en entorno virtual, hand tracking para utilizar el ratón del pc con tu
 <p>- Servidor principal (Ubuntu server)</p>
 <p>- Maquetación de las gafas</p>
 <p>- Ordenador</p>
+<p>- <a href="https://es.aliexpress.com/item/1005012437960365.html?src=google&src=google&albch=shopping&acnt=439-079-4345&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=UneMJZVf&gclsrc=aw.ds&albagn=888888&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=es1005012437960365&ds_e_product_merchant_id=5720429499&ds_e_product_country=ES&ds_e_product_language=es&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=21840696692&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_source=1&gad_campaignid=21844625911&gbraid=0AAAAACbpfvaXP8XnB7iPzDbvs62wVUtEm&gclid=CjwKCAjwrP3VBhBbEiwAnaqpQ1ajk0HdXO7oPHKmBxxUsZFkHgE7kRbL77hQ23LKLm6J3CfFy7UcMhoCRiwQAvD_BwE#nav-store">Batería de litio recargable</a></p>
 </details>
 
 <details>
