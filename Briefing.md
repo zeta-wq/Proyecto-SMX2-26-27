@@ -8,14 +8,12 @@ Nuestro proyecto, **ZetaVision**:
 
 ### Objetivos
 
-**El objetivo principal**: Crear unas gafas que ofrece IA e implementa cámara y micrófono con una batería.
-
-Para uso en entorno virtual, hand tracking para utilizar el ratón del pc con tu mano a distancia.
+**El objetivo principal**: Crear unas gafas que ofrecen IA e implementan cámara y micrófono con una batería. También proporcionan hand-tracking para uso contactless de tu ordenador. 
 
 <details>
   <summary>Ideas secundarias</summary>
   <hr>
-  <p>A partir de la IA almacenada en el servidor porder reconocer el entorno y guardar eventos...</p>
+  <p>A partir de la IA almacenada en el servidor poder reconocer el entorno y guardar eventos...</p>
   <p>Poder tener enlazadas las gafas a un chatbot mediante un audífono y el micrófono para hablar con la IA.</p>
 </details>
 
@@ -36,7 +34,7 @@ Para uso en entorno virtual, hand tracking para utilizar el ratón del pc con tu
 <details>
   <summary>Fisicos</summary>
   <hr>
-<p>- ESP32 Seed estudio XIAO S3 SENSE y sus complementos</p>
+<p>-<a href="https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html"> ESP32 Seed estudio XIAO S3 SENSE</a> y sus complementos</p>
 <p>- Servidor principal (Ubuntu server)</p>
 <p>- Maquetación de las gafas</p>
 <p>- Ordenador</p>
