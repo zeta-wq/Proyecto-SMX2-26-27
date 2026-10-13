@@ -32,6 +32,7 @@ A nivel hardware utilizaremos el microcontrolador **Seeed estudio XIAO ESP32 S3 
 
 ## Bibliografia
 
+- **Scrypted Docs**: https://docs.scrypted.app/
 - **Getting Started del microcontrolador**: https://wiki.seeedstudio.com/es/xiao_esp32s3_getting_started/
 
 ## Guía de Usuario
