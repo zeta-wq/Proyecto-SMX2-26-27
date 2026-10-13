@@ -9,5 +9,5 @@
   <details>
   <summary><b>Verificación de cuenta</b></summary>
   <br>
-   <img src="./imagenes/Verificacion_de_cuenta.png" alt="Verificación" width="600" style="border: 10px solid #ff0000; border-radius: 8px; padding: 4px;" />
+   <img src="./imagenes/Verificacion_de_cuenta.png" alt="Verificación" width="600" style="border: 2px solid #ff0000; border-radius: 8px; padding: 4px;" />
  </details>
