@@ -3,7 +3,7 @@
  <details>
   <summary><b>Página Principal</b></summary>
   <br>
-   <img src="./imagenes/Principal.png" alt="Página Principal" width="600" style="border: 2px solid #ff0000; border-radius: 8px; padding: 4px;" />
+   <img src="imagenes/Principal.png" alt="Página Principal" width="600" style="border: 2px solid #ff0000; border-radius: 8px; padding: 4px;" />
  </details>
 
   <details>
