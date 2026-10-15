@@ -35,6 +35,8 @@ Homepage
 
 <img src="../imagenes/diagrama_de_navegación_zetavision.png" alt="Página Principal" width="600" style="border: 2px solid #ff0000; border-radius: 8px; padding: 4px;" />
 
+<hr>
+
 ### Revisión de usabilidad
 
 **1.** ¿Puede un usuario llegar a cualquier página en 3 clics máximo? **Hemos revisado las diferentes rutas que se pueden tomar y no supera los 3 clics desde cualquier sitio.**
@@ -44,3 +46,8 @@ Homepage
 **3.** ¿Hay páginas "huérfanas" (sin enlaces que lleven a ellas)? **
 
 **4.** ¿La navegación es intuitiva sin necesidad de explicaciones?
+
+### Validación de usuarios
+
+
+### Documentación Final
