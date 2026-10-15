@@ -26,6 +26,8 @@ Homepage
 | Productos     | Subpágina | Compra Productos       | Media     |
 | Documentación | Subdominio| Guia de Usuario        | Media     |
 | Acerca de     | Estática  | Información Extra      | Baja      |
+| Inicio Sesión | Subpágina | Acceso de usuarios     | Alta      |
+| Registro      | Subpágina | Acceso de usuarios     | Alta      |
 ```
 <hr>
 
