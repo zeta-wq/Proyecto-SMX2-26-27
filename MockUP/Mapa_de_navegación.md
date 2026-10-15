@@ -27,4 +27,6 @@ Homepage
 | Documentación | Subdominio| Guia de Usuario        | Media     |
 | Acerca de     | Estática  | Información Extra      | Baja      |
 ```
+<hr>
 
+### Diagrama
