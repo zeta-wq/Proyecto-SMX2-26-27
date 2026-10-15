@@ -29,4 +29,6 @@ Homepage
 ```
 <hr>
 
-### Diagrama
+### Diagrama de navegación
+
+<img src="../imagenes/diagrama_de_navegación_zetavision.png" alt="Página Principal" width="600" style="border: 2px solid #ff0000; border-radius: 8px; padding: 4px;" />
