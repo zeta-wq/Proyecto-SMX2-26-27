@@ -1,10 +1,14 @@
 # Paleta de colores
-azul 
-blanco/negro
-azul electrico
+Azul 
+
+Blanco/Negro
+
+Azul electrico
 
 # Fuentes de texto
-fuente de texto: Vectipede
-fuente títulos: Ultraproxi
-zetavision: Vogue
+Fuente de texto: Vectipede
+
+Fuente títulos: Ultraproxi
+
+Zetavision: Vogue
 
