@@ -12,3 +12,6 @@ Fuente títulos: Ultraproxi
 
 Zetavision: Vogue
 
+# Logo
+
+<img src="..\imagenes\logo.png">
