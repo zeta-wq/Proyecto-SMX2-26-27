@@ -8,9 +8,9 @@ Azul electrico
 # Fuentes de texto
 Fuente de texto: Vectipede
 
-Fuente títulos: Ultraproxi
+Botones: GFSDidot
 
-Zetavision: Vogue
+Fuente títulos: Vogue
 
 # Logo
 
