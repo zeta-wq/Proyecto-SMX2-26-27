@@ -136,7 +136,7 @@ El proyecto fue abordado mediante una metodología iterativa dividida en tres et
 
 ### FASE 1: PLANIFICACIÓN
 * Levantamiento de requisitos para el producto *ZVision V1* (gafas de asistencia inteligente con IA y captura multimedia).
-* Definición del mapa del sitio y estructuración de la navegación (Landing -> Tienda / Login -> Docs).
+* Definición del mapa del sitio y estructuración de la navegación (Landing -> Docs / Login -> Tienda).
 
 ### FASE 2: DISEÑO
 * Definición del sistema de diseño (paleta cromática, tipografías *Serif* / *Sans-Serif*, componentes reutilizables).
