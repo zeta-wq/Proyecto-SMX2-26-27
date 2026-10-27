@@ -134,18 +134,4 @@ El proyecto fue abordado mediante una metodología iterativa dividida en tres et
 +-------------------+      +-------------------+      +-------------------+
 ```
 
-### FASE 1: PLANIFICACIÓN
-* Levantamiento de requisitos para el producto *ZVision V1* (gafas de asistencia inteligente con IA y captura multimedia).
-* Definición del mapa del sitio y estructuración de la navegación (Landing -> Docs / Login -> Tienda).
-
-### FASE 2: DISEÑO
-* Definición del sistema de diseño (paleta cromática, tipografías *Serif* / *Sans-Serif*, componentes reutilizables).
-* Creación de los mockups finales en Figma abarcando los diferentes flujos (compra, registro, documentación de producto).
-
-### FASE 3: TESTEO
-* Validación de contrastes de color, jerarquía visual de componentes y coherencia estética general en todo el prototipo.
-```
-eof
-```
-
-¿Qué te parece la estructura? Si necesitas agregar o ajustar algún detalle sobre los componentes antes de presentar la entrega del martes, avísame.
+<img src="../imagenes/Mockup_ZetaVision.pdf" alt="MockUp ZetaVision">
