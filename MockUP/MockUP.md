@@ -130,8 +130,11 @@ El proyecto fue abordado mediante una metodología iterativa dividida en tres et
 +-------------------+      +-------------------+      +-------------------+
 | FASE 1:           | ---> | FASE 2:           | ---> | FASE 3:           |
 | PLANIFICACIÓN     |      | DISEÑO            |      | TESTEO            |
-| (Reqs & Wireframes)|      | (UI & Design Sys) |      | (A11y & Usabilidad)|
+|                   |      |                   |      |                   |
 +-------------------+      +-------------------+      +-------------------+
 ```
 
-<img src="../imagenes/Mockup_ZetaVision.pdf" alt="MockUp ZetaVision">
+<details>
+  <summary><b>MockUp Definitivo</b></summary>
+  <br>
+   <img src="../imagenes/Mockup_ZetaVision.pdf" alt="MockUp ZetaVision">
