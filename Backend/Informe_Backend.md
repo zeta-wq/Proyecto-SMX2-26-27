@@ -75,9 +75,8 @@ Porque quiero automatizar la introducción de los datos para la compra y el env�
     
 ## Relaciones entre las entidades
 
-Para relacionar las entidades utilizamos las llaves, las utilizadas son las primarias y las foránea, pero hay mas, tu aplicas a un valor una llave y luego en otra tabla le das el valor de la llave a otra columna y los valores se rellenarán solos.
+Para relacionar las entidades utilizamos el Modelo Entidad-Relación (MER), que es el vinculo que tienen los datos entre si, están los 1:1 que son de un dato a un dato como persona:apellido, ya que una persona no puede tener dos primeros apellidos. O de 1:N/N:1 que es de muchos a uno o uno a muchos, el ejemplo sería un usuario:pedidos, un único usuario puede tener más de un pedido. Y la ultima son los N:M de muchos a muchos, como pedidos:productos, un mismo producto puede estar en muchos pedidos diferentes. Y todo esto se conecta con las llaves en SQL.
 
-# HAY QUE ACABAR ^^^
 
 ## Simulación de Datos
 
@@ -101,3 +100,5 @@ VALUES (1, 2, 1),
 ```
 
 ## Reflexion
+
+Las partes mas difíciles han sido al momento de crear las llaves y entender como funcionan y como escribirlas correctamente en sql. Problemas pendientes son las contraseñas hasheadas y automatizar los ID de los productos, direcciones, usuarios, pedidos en las otras tablas sin nosotros tener que poner el valor en la consulta.
