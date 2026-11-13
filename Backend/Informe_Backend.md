@@ -2,7 +2,7 @@
 
 ### ¿De qué trata nuestra web?
 
-Nuestra página web esta dedicadamente a nuestro producto, ZetaVision, la página web es de tipo tienda online, ofrece un producto al usuario y el usuario inicia sesión para coger los datos de envío.
+Nuestra página web esta dedicadamente a nuestro producto, ZetaVision, la página web es de tipo tienda online, ofrece un producto al usuario y el usuario inicia sesión para dar los datos de envío.
 
 ### ¿Qué funcionalidades ofrecerá a los usuarios?
 
@@ -24,11 +24,80 @@ Los elemntos que se almacenarán son:
 ### Información que almacenan
 
 - **Productos:** almacenará un id con el nombre de los productos junto a la descripción, precio y su categoría.
-- **Pedidos:** almacenará tres id, uno de pedido, de usuario y de dirección junto a la fecha prevista y la de entrega y el estado del pedido.
-- **Usuarios:** almacenará un id, un nombre, apellido con su correo más la contraseña hasheada.
+- **Pedidos:** almacenará tres id, uno de pedido, de usuario y de dirección. Junto a ellos estará la fecha prevista, la de entrega y el estado del pedido.
+- **Usuarios:** almacenará un id, un nombre, apellido y su correo más la contraseña hasheada.
 - **Direcciones:** almacenará los id de dirección y de usuario junto a la ciudad, a la calle, portal, planta, puerta y CP.
 - **Productos_Pedidos:** almacenará los id productos_pedido, el de pedido y el de producto y luego la cantidad del producto.
  
 ### ¿Por qué necesitas guardarla en la base de datos?
 
-Guardar en la base de datos toda esta información es esencial para automatizar la introducción de los datos y la búsqueda de los mismos massivamente.
+Porque quiero automatizar la introducción de los datos para la compra y el envío de productos y la presentación de su información.
+
+### Atributos
+
+- **Productos:**
+  - Nombre del producto: VARCHAR
+  - La categoría: VARCHAR
+  - La descripción: TEXT
+  - ID producto: INT
+  - Precio: DECIMAL
+    
+- **Pedidos:**
+  - ID pedido: INT
+  - ID usuario: INT
+  - ID dirección: INT
+  - Fecha entrega: DATETIME
+  - Fecha prevista: DATE
+  - Estado del pedido: ENUM ("En proceso", "En reparto", "Entregado")
+  
+- **Usuarios:**
+  - ID de usuario: INT
+  - Nombre: VARCHAR
+  - Apellido: VARCHAR
+  - Correo: VARCHAR
+  - Contraseña: VARCHAR
+
+- **Direcciones:**
+   - ID de dirección: INT
+   - ID de usuario: INT
+   - Portal: INT
+   - Puerta: INT
+   - Ciudad: VARCHAR
+   - Calle: VARCHAR
+   - Planta: VARCHAR
+   - CP: VARCHAR
+     
+- **Productos_Pedidos:** Aquí será solo "INT", porque son los ID y la cantidad de un producto.
+  - ID productos_pedidos: INT
+  - ID del pedido: INT
+  - ID del producto: INT
+  - Cantidad del producto: INT
+    
+## Relaciones entre las entidades
+
+Para relacionar las entidades utilizamos las llaves, las utilizadas son las primarias y las foránea, pero hay mas, tu aplicas a un valor una llave y luego en otra tabla le das el valor de la llave a otra columna y los valores se rellenarán solos.
+
+# HAY QUE ACABAR ^^^
+
+## Simulación de Datos
+
+Hemos rellenado la tabla usuarios con información de compañeros con un "INSERT"
+```TEXT
+INSERT INTO usuarios (nombre, apellido, correo, psswrd)
+VALUES ("Eidan", "Jama", "eidanjama@gmail.com", "gj5h8LP*^PO"),
+
+INSERT INTO direcciones (id_cliente, ciudad, calle, portal, planta, puerta, cp)
+VALUES (1, "Cornella", "Av. Salvador Allende", 1, "Bajo", 2, 08940),
+
+INSERT INTO productos (nombre, precio, descripcion, categoria)
+VALUES ("ZVision v1", 88.67, "Las gafas inteligentes con audio, cámara y micrófono son dispositivos corporales (wearables) que integran funciones de un smartphone directamente en una montura de lentes tradicional.", "Informática"),
+
+INSERT INTO pedidos (id_usuario, direccion, fecha_entrega, estado)
+VALUES (1, 1, "", "En proceso"),
+
+INSERT INTO productos_pedidos (id_pedid, id_produc, cantidad)
+VALUES (1, 2, 1),
+
+```
+
+## Reflexion
