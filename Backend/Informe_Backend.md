@@ -1,4 +1,4 @@
-# Informe
+# Informe del Backend
 
 ### ¿De qué trata nuestra web?
 
@@ -10,6 +10,9 @@ Se ofrece crear una cuenta o iniciar una si ya han creado una anteriormente, con
 
 - Ofertas para productos de la tienda.
 - Hacer reseñas del producto.
+- Información del producto.
+- Comprar el producto.
+- Obtener un software del producto.
 
 ### ¿Qué elementos importantes hay en tu web que necesitan almacenarse?
 
@@ -21,6 +24,8 @@ Los elemntos que se almacenarán son:
 - **Direcciones:** habrá "INT" y "varchar".
 - **Productos_Pedidos:** habrá solo "INT".
 
+<hr>
+
 ### Información que almacenan
 
 - **Productos:** almacenará un id con el nombre de los productos junto a la descripción, precio y su categoría.
@@ -31,7 +36,7 @@ Los elemntos que se almacenarán son:
  
 ### ¿Por qué necesitas guardarla en la base de datos?
 
-Porque quiero automatizar la introducción de los datos para la compra y el envío de productos y la presentación de su información.
+Porque queremos automatizar la introducción de los datos para la compra y el envío de productos y la presentación de su información.
 
 ### Atributos
 
@@ -77,6 +82,7 @@ Porque quiero automatizar la introducción de los datos para la compra y el env�
 
 Para relacionar las entidades utilizamos el Modelo Entidad-Relación (MER), que es el vinculo que tienen los datos entre si, están los 1:1 que son de un dato a un dato como persona:apellido, ya que una persona no puede tener dos primeros apellidos. O de 1:N/N:1 que es de muchos a uno o uno a muchos, el ejemplo sería un usuario:pedidos, un único usuario puede tener más de un pedido. Y la ultima son los N:M de muchos a muchos, como pedidos:productos, un mismo producto puede estar en muchos pedidos diferentes. Y todo esto se conecta con las llaves en SQL.
 
+<hr>
 
 ## Simulación de Datos
 
@@ -98,6 +104,8 @@ INSERT INTO productos_pedidos (id_pedid, id_produc, cantidad)
 VALUES (1, 2, 1),
 
 ```
+
+<hr>
 
 ## Reflexion
 
