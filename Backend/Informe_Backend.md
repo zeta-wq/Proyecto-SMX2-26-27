@@ -89,10 +89,10 @@ Para relacionar las entidades utilizamos el Modelo Entidad-Relación (MER), que 
 Hemos rellenado la tabla usuarios con información de compañeros con un "INSERT"
 ```TEXT
 INSERT INTO usuarios (nombre, apellido, correo, psswrd)
-VALUES ("Eidan", "Jama", "eidanjama@gmail.com", "gj5h8LP*^PO"),
+VALUES ("Luka", "Modric", "lukamodric@gmail.com", "gj5h8LP*^PO"),
 
 INSERT INTO direcciones (id_cliente, ciudad, calle, portal, planta, puerta, cp)
-VALUES (1, "Cornella", "Av. Salvador Allende", 1, "Bajo", 2, 08940),
+VALUES (1, "Praga", "Av. Zlatá ulička", 1, "Bajo", 2, 170 32),
 
 INSERT INTO productos (nombre, precio, descripcion, categoria)
 VALUES ("ZVision v1", 88.67, "Las gafas inteligentes con audio, cámara y micrófono son dispositivos corporales (wearables) que integran funciones de un smartphone directamente en una montura de lentes tradicional.", "Informática"),
