@@ -2,7 +2,7 @@
 
 Nuestro proyecto, **ZetaVision**:
 
-<div aling="justify"><p>Este proyecto va más allá que unas gafas normales con cámara, nosotros queremos innovación y eso hacemos, implementamos servicio de IA y handtracking avanzado para la comodidad de la gente, haciendo que se faciliten actividades, como crear contenido sin tener una cámara grande o poder hacer semi cámara oculta.
+<div aling="justify"><p>Este proyecto va más allá que unas gafas normales con cámara, nosotros queremos innovación y eso hacemos, implementamos servicio de IA y handtracking avanzado para la comodidad de la gente, haciendo que se faciliten actividades, como crear contenido sin tener una cámara grande.
 </p></div>
 <hr>
 
