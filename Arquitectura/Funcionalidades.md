@@ -4,7 +4,7 @@
 |----|-----------|----------|---------------|------------|-------|--------|
 | 1 | Alta | Control por voz manos libres | Captura de voz con micrófono integrado y activación por palabra clave. | Decir la palabra de activación o pulsar el botón de la patilla. | 01/04/2027 | Activo |
 | 2 | Alta | Respuestas por audio sin pantalla | Respuesta por audio a través del altavoz de las gafas. | Fin del procesamiento de la consulta por la IA. | 15/04/2027 | Pendiente |
-| 3 | Alta | Una IA integrada | Asistente de IA que interpreta la consulta y genera la respuesta (modelo qwen3.5:8b). | Consulta de voz ya transcrita. | 31/04/2027 | Activo |
+| 3 | Alta | Una IA integrada | Asistente de IA que interpreta la consulta y genera la respuesta (modelo qwen3.5:8b). | Consulta de voz ya transcrita. | 30/04/2027 | Activo |
 | 4 | Alta | Privacidad total de las conversaciones | Procesamiento local de la IA, sin enviar audio a servicios externos. | Cualquier consulta al asistente. | 15/03/2027 | Pendiente |
 | 5 | Media | Visión integrada para que la IA vea lo que ves | Cámara frontal con captura de foto y vídeo. | Comando de voz «mira» o botón de captura. | 28/03/2027 | Pendiente |
 | 6 | Media | Grabación transparente para el entorno | Indicador LED junto a la cámara que se enciende al grabar. | Inicio de una captura de foto o vídeo. | 28/02/2027 | Pendiente |
