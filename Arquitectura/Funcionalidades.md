@@ -36,3 +36,24 @@
 | 14 | Baja | Confirmación visual de las acciones | Avisos emergentes (toasts) en tienda y login. | Acción del usuario en tienda o login. | 06/11/2026 | Activo |
 | 15 | Baja | Primera impresión cuidada | Preloader con contador y logotipo Z animado. | Carga inicial de la página. | 06/11/2026 | Activo |
 | 16 | Baja | Mostrar el producto real | Sustituir las gafas procedurales por el modelo 3D real (.glb) y regenerar el vídeo. | Entrega del modelo hecho en Blender. | 28/02/2027 | Pendiente |
+
+# Tabla de funcionalidades — Arquitectura de red ZetaVision
+
+| ID | Prioridad | Objetivo | Funcionalidad | Disparador | Fecha | Estado |
+|----|-----------|----------|---------------|------------|-------|--------|
+| 1 | Alta | Conexión a internet | Router de salida que da acceso a la red exterior y entrega el tráfico al firewall. | Tráfico entrante o saliente de la red. | 30/11/2026 | Pendiente |
+| 2 | Alta | Protección del perímetro | Firewall con reglas de filtrado entre internet, la red interna y la DMZ. | Cada paquete que entra o sale de la red. | 15/12/2026 | Pendiente |
+| 3 | Alta | Red interna segmentada | Switch de capa 3 que enruta el tráfico entre los segmentos (clientes, servidores y copias de seguridad). | Comunicación entre dispositivos de distintos segmentos. | 15/12/2026 | Pendiente |
+| 4 | Alta | Servicios públicos aislados de la red interna | DMZ con reglas propias, separada de los servidores y equipos internos. | Petición externa a un servicio publicado. | 31/12/2026 | Pendiente |
+| 5 | Alta | Servidor para los servicios web | Ubuntu Server que aloja los servicios de la DMZ. | Arranque del servidor y peticiones a sus servicios. | 15/01/2027 | Pendiente |
+| 6 | Alta | Web pública del proyecto | Sitio ZetaVision.com publicado desde la DMZ. | Visita de un usuario al dominio. | 31/01/2027 | Pendiente |
+| 7 | Alta | Datos centralizados | Base de datos que da servicio a la web. | Consulta o escritura desde la web. | 31/01/2027 | Pendiente |
+| 8 | Media | Despliegue sencillo de aplicaciones | Coolify para desplegar y gestionar las aplicaciones sobre el servidor Ubuntu. | Nueva versión o publicación de una aplicación. | 15/02/2027 | Pendiente |
+| 9 | Alta | Gestión centralizada de la red interna | Windows Server como base de los servicios de dominio. | Arranque del servidor y peticiones de los equipos. | 15/01/2027 | Pendiente |
+| 10 | Alta | Usuarios y equipos centralizados | Active Directory (AD DS) con cuentas, grupos y directivas. | Inicio de sesión de un usuario o alta de un equipo. | 31/01/2027 | Pendiente |
+| 11 | Alta | Resolución de nombres interna | Servicio DNS para traducir nombres a direcciones IP. | Consulta de un nombre desde un equipo. | 15/01/2027 | Pendiente |
+| 12 | Media | Direccionamiento automático | Servicio DHCP que asigna IP, máscara y puerta de enlace. | Conexión de un equipo a la red. | 15/01/2027 | Pendiente |
+| 13 | Media | Puesto de trabajo integrado en el dominio | Cliente Windows 11 unido al dominio. | Inicio de sesión con una cuenta del dominio. | 15/02/2027 | Pendiente |
+| 14 | Alta | Copias de seguridad centralizadas | Servidor de backup que recibe y guarda las copias de los servidores. | Tarea programada de copia. | 28/02/2027 | Pendiente |
+| 15 | Alta | Recuperación del servidor Ubuntu | Copia de seguridad del Ubuntu Server. | Tarea programada o petición de restauración. | 28/02/2027 | Pendiente |
+| 16 | Alta | Recuperación del servidor Windows | Copia de seguridad del Windows Server. | Tarea programada o petición de restauración. | 28/02/2027 | Pendiente |
