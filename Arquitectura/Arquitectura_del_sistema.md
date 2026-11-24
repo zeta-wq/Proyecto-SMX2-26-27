@@ -10,3 +10,6 @@
 | Base de datos | MySQL  | 8.0 | 3306 (solo acceso interno, no expuesto a internet) | Guarda usuarios, pedidos y datos de la tienda. Solo debe ser accesible desde el backend. | https://dev.mysql.com/doc/ |
 | Sistema gestor de base de datos | phpMyAdmin | 5.2 | 443 (a través del servidor web, con acceso restringido) | Interfaz para crear tablas, usuarios y consultas de la base de datos. | https://www.phpmyadmin.net/docs/ |
 | Servicios de APIs | REST con JSON sobre HTTPS | no | 443 | El frontend se comunica con el backend mediante peticiones REST (por ejemplo, login y pedidos). Además, Coolify (panel en el puerto 8000, versión 4) gestiona el despliegue de las aplicaciones. | https://coolify.io/docs |
+
+# Diagrama de la red
+<img src=../imagenes/Diagrama_de_red.png>
